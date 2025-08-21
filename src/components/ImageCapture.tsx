@@ -187,7 +187,7 @@ export const ImageCapture: React.FC<Props> = ({ period, stationId, label, valueB
                 onClick={() => !isProcessing && galleryInputRef.current?.click()}
               >
                 <Image className="h-5 w-5" />
-                <span className="text-xs">Fototeca</span>
+                <span className="text-xs">Galeria</span>
               </Button>
             </div>
             {isProcessing && (

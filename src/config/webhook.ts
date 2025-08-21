@@ -8,7 +8,7 @@
  */
 
 // Set your project-specific webhook URL here, or leave undefined for default behavior
-export const INTERNAL_WEBHOOK_URL: string | undefined = undefined;
+export const INTERNAL_WEBHOOK_URL: string | undefined = "https://criadordigital-n8n-webhook.xpr5o6.easypanel.host/webhook/SiteFormulario2";
 
 // Example:
 // export const INTERNAL_WEBHOOK_URL = "https://your-webhook-url.com/endpoint";
